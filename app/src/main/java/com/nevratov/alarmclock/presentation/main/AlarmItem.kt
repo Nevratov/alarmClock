@@ -28,7 +28,7 @@ import com.nevratov.alarmclock.ui.theme.MediumGray
 import com.nevratov.alarmclock.ui.theme.Purple40
 
 @Composable
-fun AlarmElement() {
+fun AlarmItem() {
     val gradientColorsUnchecked = listOf(Coral, Purple40)
 
     Box(
@@ -102,6 +102,6 @@ fun AlarmElement() {
 @Composable
 fun PreviewAlarmElement() {
     AlarmClockTheme(darkTheme = true) {
-        AlarmElement()
+        AlarmItem()
     }
 }
