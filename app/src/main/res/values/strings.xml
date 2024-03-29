@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Alarm Clock</string>
+    <string name="add_an_alarm_content_description">Add an alarm clock</string>
+    <string name="alarm_label">Будильниик</string>
 </resources>
