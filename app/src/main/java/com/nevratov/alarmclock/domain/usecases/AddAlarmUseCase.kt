@@ -1,8 +1,9 @@
 package com.nevratov.alarmclock.domain.usecases
 
+import com.nevratov.alarmclock.domain.entity.AlarmItem
 import com.nevratov.alarmclock.domain.repository.AlarmRepository
 
 class AddAlarmUseCase(private val repository: AlarmRepository) {
 
-    operator fun invoke() = repository.addAlarm()
+    operator fun invoke(item: AlarmItem) = repository.addAlarm(item)
 }

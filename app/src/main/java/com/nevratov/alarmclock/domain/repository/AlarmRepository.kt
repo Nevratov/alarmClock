@@ -4,7 +4,7 @@ import com.nevratov.alarmclock.domain.entity.AlarmItem
 
 interface AlarmRepository {
 
-    fun addAlarm()
+    fun addAlarm(item: AlarmItem)
 
     fun deleteAlarm(item: AlarmItem)
 
